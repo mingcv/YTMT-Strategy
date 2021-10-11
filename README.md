@@ -1,4 +1,4 @@
-## Trash or Treasure? An Interactive Dual-Stream Strategy for Single Image Reflection Separation (NeuraIPS 2021)
+## Trash or Treasure? An Interactive Dual-Stream Strategy for Single Image Reflection Separation (NeurIPS 2021)
 by Qiming Hu, Xiaojie Guo.
 
 ### Dependencies
@@ -30,5 +30,23 @@ by Qiming Hu, Xiaojie Guo.
 ```python test_sirs.py --inet ytmt_ucs --model twostage_ytmt_model --name ytmt_uct_sirs_test --hyper --resume --icnn_path ./checkpoints/ytmt_uct_sirs/twostage_unet_68_077_00595364.pt```
 
 ## :rocket: 2. Single Image Denoising
+
+
 ## :rocket: 3. Single Image Demoireing
+### Data Preparation
+
+#### Training dataset
+[AIM 2019 Demoireing Challenge](https://competitions.codalab.org/competitions/20165)
+
+#### Tesing dataset
+100 [moireing](https://data.vision.ee.ethz.ch/timofter/AIM19demoire/ValidationMoire.zip) and [clean](https://data.vision.ee.ethz.ch/timofter/AIM19demoire/ValidationClear.zip) pairs from AIM 2019 Demoireing Challenge. 
+
+### Usage
+
+#### Training 
+```python train_moire.py --inet ytmt_ucs --model ytmt_model_demoire --name ytmt_ucs_demoire --hyper```
+
+#### Testing 
+```python test_moire.py --inet ytmt_ucs --model ytmt_model_demoire --name ytmt_ucs_demoire_test --hyper --resume --icnn_path ./checkpoints/ytmt_ucs_demoire/ytmt_ucs_opt_086_00860000.pt```
+
 ## :rocket: 4. Intrinsic Image Decomposition
