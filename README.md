@@ -31,6 +31,14 @@ by Qiming Hu, Xiaojie Guo.
 
 ## :rocket: 2. Single Image Denoising
 
+### Usage
+
+#### Training 
+```python train_denoising.py --inet ytmt_pas --name ytmt_pas_denoising --preprocess True --num_of_layers 9 --mode B```
+
+#### Testing 
+```python test_denoising.py --inet ytmt_pas --name ytmt_pas_denoising_blindtest_25 --test_noiseL 25 --num_of_layers 9 --test_data Set68 --icnn_path ./checkpoints/ytmt_pas_denoising_49_157500.pt```
+
 
 ## :rocket: 3. Single Image Demoireing
 ### Data Preparation
@@ -44,9 +52,9 @@ by Qiming Hu, Xiaojie Guo.
 ### Usage
 
 #### Training 
-```python train_moire.py --inet ytmt_ucs --model ytmt_model_demoire --name ytmt_ucs_demoire --hyper```
+```python train_demoire.py --inet ytmt_ucs --model ytmt_model_demoire --name ytmt_uas_demoire --hyper```
 
 #### Testing 
-```python test_moire.py --inet ytmt_ucs --model ytmt_model_demoire --name ytmt_ucs_demoire_test --hyper --resume --icnn_path ./checkpoints/ytmt_ucs_demoire/ytmt_ucs_opt_086_00860000.pt```
+```python test_demoire.py --inet ytmt_ucs --model ytmt_model_demoire --name ytmt_uas_demoire_test --hyper --resume --icnn_path ./checkpoints/ytmt_ucs_demoire/ytmt_ucs_opt_086_00860000.pt```
 
 ## :rocket: 4. Intrinsic Image Decomposition
