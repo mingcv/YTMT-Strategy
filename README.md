@@ -31,10 +31,18 @@ by Qiming Hu, Xiaojie Guo.
 
 ## :rocket: 2. Single Image Denoising
 
+### Data Preparation
+
+#### Training dataset
+400 images from the [Berkeley segmentation dataset](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/papers/mftm-iccv01.pdf), following [DnCNN](https://arxiv.org/abs/1608.03981).
+
+#### Tesing dataset
+[BSD68 dataset and Set12](https://github.com/SaoYan/DnCNN-PyTorch/tree/master/data). 
+
 ### Usage
 
 #### Training 
-```python train_denoising.py --inet ytmt_pas --name ytmt_pas_denoising --preprocess True --num_of_layers 9 --mode B```
+```python train_denoising.py --inet ytmt_pas --name ytmt_pas_denoising --preprocess True --num_of_layers 9 --mode B --preprocess True```
 
 #### Testing 
 ```python test_denoising.py --inet ytmt_pas --name ytmt_pas_denoising_blindtest_25 --test_noiseL 25 --num_of_layers 9 --test_data Set68 --icnn_path ./checkpoints/ytmt_pas_denoising_49_157500.pt```
@@ -48,6 +56,7 @@ by Qiming Hu, Xiaojie Guo.
 
 #### Tesing dataset
 100 [moireing](https://data.vision.ee.ethz.ch/timofter/AIM19demoire/ValidationMoire.zip) and [clean](https://data.vision.ee.ethz.ch/timofter/AIM19demoire/ValidationClear.zip) pairs from AIM 2019 Demoireing Challenge. 
+
 
 ### Usage
 
