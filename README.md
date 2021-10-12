@@ -24,10 +24,10 @@ by Qiming Hu, Xiaojie Guo.
 
 #### Training 
 * For stage 1: ```python train_sirs.py --inet ytmt_ucs --model ytmt_model_sirs --name ytmt_ucs_sirs --hyper```
-* For stage 2: ```python train_twostage_sirs.py --inet ytmt_ucs --model twostage_ytmt_model --name ytmt_uct_sirs --hyper --resume --resume_epoch xx --checkpoints_dir xxx```
+* For stage 2: ```python train_twostage_sirs.py --inet ytmt_ucs --model twostage_ytmt_model --name ytmt_uct_sirs --hyper --if_align --resume --resume_epoch xx --checkpoints_dir xxx```
 
 #### Testing 
-```python test_sirs.py --inet ytmt_ucs --model twostage_ytmt_model --name ytmt_uct_sirs_test --hyper --resume --icnn_path ./checkpoints/ytmt_uct_sirs/twostage_unet_68_077_00595364.pt```
+```python test_sirs.py --inet ytmt_ucs --model twostage_ytmt_model --name ytmt_uct_sirs_test --hyper --if_align --resume --icnn_path ./checkpoints/ytmt_uct_sirs/twostage_unet_68_077_00595364.pt```
 
 #### Trained weights
 [Google Drive](https://drive.google.com/file/d/1yOKFzhhFUdbKzU3eafYKFLN7AdHqW4_7/view?usp=sharing)
@@ -66,10 +66,10 @@ by Qiming Hu, Xiaojie Guo.
 ### Usage
 
 #### Training 
-```python train_demoire.py --inet ytmt_ucs --model ytmt_model_demoire --name ytmt_uas_demoire --hyper```
+```python train_demoire.py --inet ytmt_ucs --model ytmt_model_demoire --name ytmt_uas_demoire --hyper --if_align```
 
 #### Testing 
-```python test_demoire.py --inet ytmt_ucs --model ytmt_model_demoire --name ytmt_uas_demoire_test --hyper --resume --icnn_path ./checkpoints/ytmt_ucs_demoire/ytmt_ucs_opt_086_00860000.pt```
+```python test_demoire.py --inet ytmt_ucs --model ytmt_model_demoire --name ytmt_uas_demoire_test --hyper --if_align --resume --icnn_path ./checkpoints/ytmt_ucs_demoire/ytmt_ucs_opt_086_00860000.pt```
 
 #### Trained weights
 [Google Drive](https://drive.google.com/file/d/16331tan6_1pTli8MNTnC2uoKGcO2cWcv/view?usp=sharing)
