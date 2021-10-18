@@ -7,6 +7,8 @@ by Qiming Hu, Xiaojie Guo.
 * OpenCV-Python, TensorboardX, Visdom
 * NVIDIA GPU+CUDA
 
+![figure_arch](https://github.com/mingcv/YTMT-Strategy/blob/main/figures/figure_ytmt_networks_final.png)
+
 ## :rocket: 1. Single Image Reflection Separation
 ### Data Preparation
 
