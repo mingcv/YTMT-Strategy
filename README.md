@@ -81,5 +81,5 @@ by Qiming Hu, Xiaojie Guo.
 
 ### Usage
 
-#### Training 
-```python train_intrinstic.py --inet ytmt_ucs --model ytmt_model_demoire --name ytmt_ucs_intrinstic --hyper --if_align```
+//#### Training 
+//```python train_intrinstic.py --inet ytmt_ucs --model ytmt_model_demoire --name ytmt_ucs_intrinstic --hyper --if_align```
