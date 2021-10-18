@@ -74,12 +74,12 @@ by Qiming Hu, Xiaojie Guo.
 #### Trained weights
 [Google Drive](https://drive.google.com/file/d/16331tan6_1pTli8MNTnC2uoKGcO2cWcv/view?usp=sharing)
 
-## :rocket: 4. Intrinsic Image Decomposition
+<!-- ## :rocket: 4. Intrinsic Image Decomposition
 ### Data Preparation
 
 [MIT-intrinsic dataset](https://github.com/davidstutz/grosse2009-intrinsic-images), pre-processed following [Direct Intrinsics](https://github.com/tnarihi/direct-intrinsics/tree/master/data/mit)
 
 ### Usage
 
-//#### Training 
-//```python train_intrinstic.py --inet ytmt_ucs --model ytmt_model_demoire --name ytmt_ucs_intrinstic --hyper --if_align```
+#### Training 
+```python train_intrinstic.py --inet ytmt_ucs --model ytmt_model_demoire --name ytmt_ucs_intrinstic --hyper --if_align``` -->
