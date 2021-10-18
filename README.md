@@ -23,20 +23,23 @@ by Qiming Hu, Xiaojie Guo.
 ### Usage
 
 #### Training 
-* For stage 1: ```python train_sirs.py --inet ytmt_ucs --model ytmt_model_sirs --name ytmt_ucs_sirs --hyper```
-* For stage 2: ```python train_twostage_sirs.py --inet ytmt_ucs --model twostage_ytmt_model --name ytmt_uct_sirs --hyper --resume --resume_epoch xx --checkpoints_dir xxx```
+* For stage 1: ```python train_sirs.py --inet ytmt_ucs --model ytmt_model_sirs --name ytmt_ucs_sirs --hyper --if_align```
+* For stage 2: ```python train_twostage_sirs.py --inet ytmt_ucs --model twostage_ytmt_model --name ytmt_uct_sirs --hyper --if_align --resume --resume_epoch xx --checkpoints_dir xxx```
 
 #### Testing 
-```python test_sirs.py --inet ytmt_ucs --model twostage_ytmt_model --name ytmt_uct_sirs_test --hyper --resume --icnn_path ./checkpoints/ytmt_uct_sirs/twostage_unet_68_077_00595364.pt```
+```python test_sirs.py --inet ytmt_ucs --model twostage_ytmt_model --name ytmt_uct_sirs_test --hyper --if_align --resume --icnn_path ./checkpoints/ytmt_uct_sirs/twostage_unet_68_077_00595364.pt```
+
+#### Trained weights
+[Google Drive](https://drive.google.com/file/d/1yOKFzhhFUdbKzU3eafYKFLN7AdHqW4_7/view?usp=sharing)
 
 ## :rocket: 2. Single Image Denoising
 
 ### Data Preparation
 
-#### Training dataset
+#### Training datasets
 400 images from the [Berkeley segmentation dataset](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/papers/mftm-iccv01.pdf), following [DnCNN](https://arxiv.org/abs/1608.03981).
 
-#### Tesing dataset
+#### Tesing datasets
 [BSD68 dataset and Set12](https://github.com/SaoYan/DnCNN-PyTorch/tree/master/data). 
 
 ### Usage
@@ -47,6 +50,8 @@ by Qiming Hu, Xiaojie Guo.
 #### Testing 
 ```python test_denoising.py --inet ytmt_pas --name ytmt_pas_denoising_blindtest_25 --test_noiseL 25 --num_of_layers 9 --test_data Set68 --icnn_path ./checkpoints/ytmt_pas_denoising_49_157500.pt```
 
+#### Trained weights
+[Google Drive](https://drive.google.com/file/d/1FmmUHbWbvTfFlic-gR334cSlesiLZ-e2/view?usp=sharing)
 
 ## :rocket: 3. Single Image Demoireing
 ### Data Preparation
@@ -61,9 +66,20 @@ by Qiming Hu, Xiaojie Guo.
 ### Usage
 
 #### Training 
-```python train_demoire.py --inet ytmt_ucs --model ytmt_model_demoire --name ytmt_uas_demoire --hyper```
+```python train_demoire.py --inet ytmt_ucs --model ytmt_model_demoire --name ytmt_uas_demoire --hyper --if_align```
 
 #### Testing 
-```python test_demoire.py --inet ytmt_ucs --model ytmt_model_demoire --name ytmt_uas_demoire_test --hyper --resume --icnn_path ./checkpoints/ytmt_ucs_demoire/ytmt_ucs_opt_086_00860000.pt```
+```python test_demoire.py --inet ytmt_ucs --model ytmt_model_demoire --name ytmt_uas_demoire_test --hyper --if_align --resume --icnn_path ./checkpoints/ytmt_ucs_demoire/ytmt_ucs_opt_086_00860000.pt```
 
-## :rocket: 4. Intrinsic Image Decomposition
+#### Trained weights
+[Google Drive](https://drive.google.com/file/d/16331tan6_1pTli8MNTnC2uoKGcO2cWcv/view?usp=sharing)
+
+<!-- ## :rocket: 4. Intrinsic Image Decomposition
+### Data Preparation
+
+[MIT-intrinsic dataset](https://github.com/davidstutz/grosse2009-intrinsic-images), pre-processed following [Direct Intrinsics](https://github.com/tnarihi/direct-intrinsics/tree/master/data/mit)
+
+### Usage
+
+#### Training 
+```python train_intrinstic.py --inet ytmt_ucs --model ytmt_model_demoire --name ytmt_ucs_intrinstic --hyper --if_align``` -->
