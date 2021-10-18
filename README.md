@@ -7,6 +7,7 @@ by Qiming Hu, Xiaojie Guo.
 * OpenCV-Python, TensorboardX, Visdom
 * NVIDIA GPU+CUDA
 
+### Network Architecture
 ![figure_arch](https://github.com/mingcv/YTMT-Strategy/blob/main/figures/figure_ytmt_networks_final.png)
 
 ## :rocket: 1. Single Image Reflection Separation
@@ -34,9 +35,12 @@ by Qiming Hu, Xiaojie Guo.
 #### Trained weights
 [Google Drive](https://drive.google.com/file/d/1yOKFzhhFUdbKzU3eafYKFLN7AdHqW4_7/view?usp=sharing)
 
+#### Visual comparison on real20 and SIR^2
 ![figure_eval](https://github.com/mingcv/YTMT-Strategy/blob/main/figures/figure_eval_comparation.png)
 
+#### Visual comparison on real45
 ![figure_test](https://github.com/mingcv/YTMT-Strategy/blob/main/figures/figure_test_comparation.png)
+
 ## :rocket: 2. Single Image Denoising
 
 ### Data Preparation
