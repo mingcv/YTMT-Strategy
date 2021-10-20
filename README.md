@@ -87,7 +87,7 @@ by Qiming Hu, Xiaojie Guo.
 [Google Drive](https://drive.google.com/file/d/16331tan6_1pTli8MNTnC2uoKGcO2cWcv/view?usp=sharing)
 
 #### Visual comparison on the validation set of LCDMoire
-![figure_eval_demoireing](https://github.com/mingcv/YTMT-Strategy/blob/main/figures/figure_eval_demoireing.png)
+![figure_eval_demoire](https://github.com/mingcv/YTMT-Strategy/blob/main/figures/figure_eval_demoire.png)
 
 <!-- ## :rocket: 4. Intrinsic Image Decomposition
 ### Data Preparation
