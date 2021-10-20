@@ -62,6 +62,9 @@ by Qiming Hu, Xiaojie Guo.
 #### Trained weights
 [Google Drive](https://drive.google.com/file/d/1FmmUHbWbvTfFlic-gR334cSlesiLZ-e2/view?usp=sharing)
 
+#### Visual comparison on a sample from BSD68
+![figure_eval_denoising](https://github.com/mingcv/YTMT-Strategy/blob/main/figures/figure_eval_denoising.png)
+
 ## :rocket: 3. Single Image Demoireing
 ### Data Preparation
 
@@ -82,6 +85,9 @@ by Qiming Hu, Xiaojie Guo.
 
 #### Trained weights
 [Google Drive](https://drive.google.com/file/d/16331tan6_1pTli8MNTnC2uoKGcO2cWcv/view?usp=sharing)
+
+#### Visual comparison on the validation set of LCDMoire
+![figure_eval_demoireing](https://github.com/mingcv/YTMT-Strategy/blob/main/figures/figure_eval_demoireing.png)
 
 <!-- ## :rocket: 4. Intrinsic Image Decomposition
 ### Data Preparation
