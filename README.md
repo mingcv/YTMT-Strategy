@@ -1,4 +1,4 @@
-## Trash or Treasure? An Interactive Dual-Stream Strategy for Single Image Reflection Separation (NeurIPS 2021)
+## [Trash or Treasure? An Interactive Dual-Stream Strategy for Single Image Reflection Separation (NeurIPS 2021)](https://arxiv.org/abs/2110.10546)
 by Qiming Hu, Xiaojie Guo.
 
 ### Dependencies
