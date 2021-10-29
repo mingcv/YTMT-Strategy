@@ -99,6 +99,10 @@ by Qiming Hu, Xiaojie Guo.
 #### Trained weights
 [Google Drive](https://drive.google.com/file/d/1sor46AYKgp8rQ7fGScsm1cZzLgRjAWuk/view?usp=sharing)
 
+#### Visual comparison on the validation split of MIT-Intrinsic
+
+![figure_eval_intrinsic](https://github.com/solidhtwoo/YTMT-Strategy-1/blob/main/figures/figure_intrinsic_decomp.png)
+
 #### Training 
 ```python train_intrinsic.py --inet ytmt_ucs --model ytmt_model_intrinsic_decomp --name ytmt_ucs_intrinsic```
 
