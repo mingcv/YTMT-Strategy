@@ -1,6 +1,5 @@
 # Metrics/Indexes
-from skimage.metrics import structural_similarity as compare_ssim
-from skimage.metrics import peak_signal_noise_ratio as compare_psnr
+from skimage.measure import compare_ssim, compare_psnr
 from functools import partial
 import numpy as np
 
