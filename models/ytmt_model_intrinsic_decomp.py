@@ -127,8 +127,7 @@ class YTMTNetBase(BaseModel):
 
             recon = tensor2im(self.recon_img)
             if self.aligned:
-                res = index.quality_assess((output_i, target_albedo),
-                                           (output_j, target_shading))
+                res = index.quality_assess(output_i, target_albedo)
                 # res = index.quality_assess(output_j, target_r)
             else:
                 res = {}

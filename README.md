@@ -97,6 +97,7 @@ by Qiming Hu, Xiaojie Guo.
 ### Usage
 
 #### Trained weights
+[Google Drive](https://drive.google.com/file/d/1sor46AYKgp8rQ7fGScsm1cZzLgRjAWuk/view?usp=sharing)
 
 #### Training 
 ```python train_intrinsic.py --inet ytmt_ucs --model ytmt_model_intrinsic_decomp --name ytmt_ucs_intrinsic```
