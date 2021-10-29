@@ -89,12 +89,17 @@ by Qiming Hu, Xiaojie Guo.
 #### Visual comparison on the validation set of LCDMoire
 ![figure_eval_demoire](https://github.com/mingcv/YTMT-Strategy/blob/main/figures/figure_eval_demoire.png)
 
-<!-- ## :rocket: 4. Intrinsic Image Decomposition
+## :rocket: 4. Intrinsic Image Decomposition
 ### Data Preparation
 
 [MIT-intrinsic dataset](https://github.com/davidstutz/grosse2009-intrinsic-images), pre-processed following [Direct Intrinsics](https://github.com/tnarihi/direct-intrinsics/tree/master/data/mit)
 
 ### Usage
 
+#### Trained weights
+
 #### Training 
-```python train_intrinstic.py --inet ytmt_ucs --model ytmt_model_demoire --name ytmt_ucs_intrinstic --hyper --if_align``` -->
+```python train_intrinsic.py --inet ytmt_ucs --model ytmt_model_intrinsic_decomp --name ytmt_ucs_intrinsic```
+
+#### Testing
+```python test_intrinsic.py --inet ytmt_ucs --model ytmt_model_intrinsic_decomp --name ytmt_ucs_intrinsic --resume --icnn_path [Path to your weight]```
