@@ -10,7 +10,7 @@ import torch
 import torch.nn as nn
 import yaml
 from PIL import Image
-from skimage.measure.simple_metrics import compare_psnr
+from skimage.measure import compare_psnr
 from skimage.metrics import structural_similarity
 
 
