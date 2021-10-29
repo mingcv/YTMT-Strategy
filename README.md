@@ -101,7 +101,7 @@ by Qiming Hu, Xiaojie Guo.
 
 #### Visual comparison on the validation split of MIT-Intrinsic
 
-![figure_eval_intrinsic](https://github.com/solidhtwoo/YTMT-Strategy-1/blob/f80761fc23841a0cd3a440002fe7fc842801e93c/figures/figure_eval_intrinsic_decomp.png)
+![figure_eval_intrinsic](https://github.com/mingcv/YTMT-Strategy/blob/main/figures/figure_eval_intrinsic_decomp.png)
 
 #### Training 
 ```python train_intrinsic.py --inet ytmt_ucs --model ytmt_model_intrinsic_decomp --name ytmt_ucs_intrinsic```
