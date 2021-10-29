@@ -1,7 +1,7 @@
 import os
 
-from options.errnet.train_options import TrainOptions
-from intrinsic_engine import Engine
+from options.net_options.train_options import TrainOptions
+from engine import Engine
 import torch
 import data.intrinsic_dataset as datasets
 from tools import mutils
