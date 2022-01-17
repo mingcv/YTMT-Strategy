@@ -24,8 +24,8 @@ eval_dataloader = datasets.DataLoader(eval_dataset, batch_size=1, shuffle=False,
                                       pin_memory=True)
 
 engine = Engine(opt)
-engine.save_eval(label='ytmt_ucs_demoire_opt_086_00860000')
-exit(0)
+# engine.save_eval(label='ytmt_ucs_demoire_opt_086_00860000')
+# exit(0)
 """Main Loop"""
 result_dir = os.path.join('./results', opt.name, mutils.get_formatted_time())
 
