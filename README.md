@@ -30,7 +30,7 @@ by Qiming Hu, Xiaojie Guo.
 * For stage 2: ```python train_twostage_sirs.py --inet ytmt_ucs --model twostage_ytmt_model --name ytmt_uct_sirs --hyper --if_align --resume --resume_epoch xx --checkpoints_dir xxx```
 
 #### Testing 
-```python test_sirs.py --inet ytmt_ucs_old --model twostage_ytmt_model --name ytmt_uct_sirs_test --hyper --if_align --resume --icnn_path ./checkpoints/ytmt_uct_sirs/twostage_unet_68_077_00595364.pt```
+```python test_sirs.py --inet ytmt_ucs_old --model twostage_ytmt_model --name ytmt_uct_sirs_test --hyper --if_align --resume --icnn_path ./checkpoints/ytmt_uct_sirs/ytmt_uct_sirs_68_077_00595364.pt```
 
 *Note: "ytmt_ucs_old" is only for our provided checkpoint, and please change it as "ytmt_ucs" when you train our model by yourself, since it is a refactorized verison for a better view.*
 
