@@ -10,9 +10,8 @@ import torch
 import torch.nn as nn
 import yaml
 from PIL import Image
-from skimage.measure import compare_psnr
+from skimage.metrics import peak_signal_noise_ratio as compare_psnr
 from skimage.metrics import structural_similarity
-
 
 def get_config(config):
     with open(config, 'r') as stream:
